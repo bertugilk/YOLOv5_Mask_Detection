@@ -3,9 +3,9 @@ I trained a mask dataset on the roboflow website using the YOLOv5 algorithm and 
 
 ## Installation
 
-git clone https://github.com/kadirnar/yolov5-strongsort <br />
-cd yolov5-strongsort <br />
-pip install -r requirements.txt
+!git clone https://github.com/ultralytics/yolov5  # clone repo <br />
+%cd yolov5 <br />
+%pip install -qr requirements.txt # install dependencies
 
 ## Run
 python detect.py --weights ../weights/best.pt --img 416 --conf 0.4 --source 0 <br />
